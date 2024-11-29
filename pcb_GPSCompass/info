@@ -1,0 +1,3196 @@
+{
+  "uuid": "ea6d5e0ddd1ea1bcaeaaf27b1a17aabd",
+  "path": "Offline/GPSCompass",
+  "name": "GPSCompass",
+  "content": "",
+  "created_at": "2024-11-15 16:57:59",
+  "updated_at": "2024-11-24 21:18:50",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "26679e4d4336f6f1567d0102390fdbb4",
+      "title": "MCU",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ec396171ddf64e66a785c89c626c9214": 1,
+        "7ea92a04a843449ab99cccc0b5447ada": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "95c754501c9b4090a63989bbbfa3c7e5": 1,
+        "1f2a491815d94572b4973c024223c70e": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 5,
+        "10b33fd833c14cb698d2680e383ac3ad": 1,
+        "07aad3aef5fe462ea6daff7c9a797ff9": 1,
+        "f29f57ac58b24353a27984c5792bbc76": 9,
+        "5cbe824183374fac8e4c1ae848199ce3": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0402",
+          "C19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "100n",
+          7,
+          "C0402",
+          "C20,C21,C22,C23,C24,C26,C27",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "R",
+          2,
+          "R0603",
+          "R1,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R0603",
+          "R10,R11,R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "LD1117-3.3",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347229",
+            "Manufacturer": "UMW(友台半导体)",
+            "Manufacturer Part": "LD1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117-3.3",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "7ea92a04a843449ab99cccc0b5447ada"
+          }
+        ],
+        [
+          "PZ2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M-3",
+          "U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5360898",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "PZ2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ2.54-1*2",
+            "puuid": "c1e7930568a246c7aca1be33bf9ee5d4",
+            "uuid": "95c754501c9b4090a63989bbbfa3c7e5"
+          }
+        ],
+        [
+          "2.54-1*6",
+          1,
+          "HDR-TH_6P-P2.54-V-M",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5156615",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*6",
+            "puuid": "933d9fe8bedd4aa8bbbeea7cea7bf85a",
+            "uuid": "1f2a491815d94572b4973c024223c70e"
+          }
+        ],
+        [
+          "2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "U10",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116481",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*2",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "10b33fd833c14cb698d2680e383ac3ad"
+          }
+        ],
+        [
+          "STM32F411RET6",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411RET6",
+            "Supplier Part": "C94355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411RET6",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "07aad3aef5fe462ea6daff7c9a797ff9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0402",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C13,C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "47k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "LCD-S401C71TR-luke",
+          1,
+          "LCD-S401C71TR-LUKE",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "lukearthur2004",
+            "spiceSymbolName": "LCD-S401C71TR-luke",
+            "puuid": "f0e306eac16f43a8b24dc6b2d3d21e28",
+            "uuid": "3aca93d316544fd2b4681edf871d8b44"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1732225091,
+      "createTime": 1731707880,
+      "histories": [],
+      "created_at": "2024-11-15 16:58:00",
+      "updated_at": "2024-11-21 16:38:11"
+    },
+    {
+      "uuid": "3a0dc03ec1f078ede1aa6cc1ffd8a400",
+      "title": "Compass",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ae7543a64f224e1f822ac949e6e08c74": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 2,
+        "f29f57ac58b24353a27984c5792bbc76": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0402",
+          "C19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "100n",
+          7,
+          "C0402",
+          "C20,C21,C22,C23,C24,C26,C27",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "R",
+          2,
+          "R0603",
+          "R1,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R0603",
+          "R10,R11,R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "LD1117-3.3",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347229",
+            "Manufacturer": "UMW(友台半导体)",
+            "Manufacturer Part": "LD1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117-3.3",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "7ea92a04a843449ab99cccc0b5447ada"
+          }
+        ],
+        [
+          "PZ2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M-3",
+          "U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5360898",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "PZ2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ2.54-1*2",
+            "puuid": "c1e7930568a246c7aca1be33bf9ee5d4",
+            "uuid": "95c754501c9b4090a63989bbbfa3c7e5"
+          }
+        ],
+        [
+          "2.54-1*6",
+          1,
+          "HDR-TH_6P-P2.54-V-M",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5156615",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*6",
+            "puuid": "933d9fe8bedd4aa8bbbeea7cea7bf85a",
+            "uuid": "1f2a491815d94572b4973c024223c70e"
+          }
+        ],
+        [
+          "2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "U10",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116481",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*2",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "10b33fd833c14cb698d2680e383ac3ad"
+          }
+        ],
+        [
+          "STM32F411RET6",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411RET6",
+            "Supplier Part": "C94355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411RET6",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "07aad3aef5fe462ea6daff7c9a797ff9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0402",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C13,C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "47k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "LCD-S401C71TR-luke",
+          1,
+          "LCD-S401C71TR-LUKE",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "lukearthur2004",
+            "spiceSymbolName": "LCD-S401C71TR-luke",
+            "puuid": "f0e306eac16f43a8b24dc6b2d3d21e28",
+            "uuid": "3aca93d316544fd2b4681edf871d8b44"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1732225080,
+      "createTime": 1731712897,
+      "histories": [],
+      "created_at": "2024-11-15 18:21:37",
+      "updated_at": "2024-11-21 16:38:00"
+    },
+    {
+      "uuid": "f5e410ad53898b0bdee05089aa6beb22",
+      "title": "display and driver",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5c9b7721d9c74141b7263ab258674244": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 4,
+        "3aca93d316544fd2b4681edf871d8b44": 1,
+        "f29f57ac58b24353a27984c5792bbc76": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0402",
+          "C19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "100n",
+          7,
+          "C0402",
+          "C20,C21,C22,C23,C24,C26,C27",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "R",
+          2,
+          "R0603",
+          "R1,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R0603",
+          "R10,R11,R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "LD1117-3.3",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347229",
+            "Manufacturer": "UMW(友台半导体)",
+            "Manufacturer Part": "LD1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117-3.3",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "7ea92a04a843449ab99cccc0b5447ada"
+          }
+        ],
+        [
+          "PZ2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M-3",
+          "U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5360898",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "PZ2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ2.54-1*2",
+            "puuid": "c1e7930568a246c7aca1be33bf9ee5d4",
+            "uuid": "95c754501c9b4090a63989bbbfa3c7e5"
+          }
+        ],
+        [
+          "2.54-1*6",
+          1,
+          "HDR-TH_6P-P2.54-V-M",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5156615",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*6",
+            "puuid": "933d9fe8bedd4aa8bbbeea7cea7bf85a",
+            "uuid": "1f2a491815d94572b4973c024223c70e"
+          }
+        ],
+        [
+          "2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "U10",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116481",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*2",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "10b33fd833c14cb698d2680e383ac3ad"
+          }
+        ],
+        [
+          "STM32F411RET6",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411RET6",
+            "Supplier Part": "C94355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411RET6",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "07aad3aef5fe462ea6daff7c9a797ff9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0402",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C13,C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "47k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "LCD-S401C71TR-luke",
+          1,
+          "LCD-S401C71TR-LUKE",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "lukearthur2004",
+            "spiceSymbolName": "LCD-S401C71TR-luke",
+            "puuid": "f0e306eac16f43a8b24dc6b2d3d21e28",
+            "uuid": "3aca93d316544fd2b4681edf871d8b44"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1732225703,
+      "createTime": 1731724760,
+      "histories": [],
+      "created_at": "2024-11-15 21:39:20",
+      "updated_at": "2024-11-21 16:48:23"
+    },
+    {
+      "uuid": "4b3036fa207c7e5f4e9fcfc196e778b0",
+      "title": "GPS",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1616783682a245fd8a4cddc33a370b36": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "a4eacdcb63554cb08b3b56477817ab57": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1,
+        "4d7c12ca718321ff6a90feefa27cbc35": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C0603",
+          "C1,C2,C3,C5,C6,C8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0603",
+          "C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "STM32F411CEU6",
+          1,
+          "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411CEU6",
+            "Supplier Part": "C60420",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411CEU6",
+            "puuid": "d8f1e8de5160402fae618de6ccdfda66",
+            "uuid": "8ef8489a07424c7e9b7747724b489515"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0603",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0603",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "60k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ]
+      ],
+      "updateTime": 1731775179,
+      "createTime": 1731774139,
+      "histories": [],
+      "created_at": "2024-11-16 11:22:19",
+      "updated_at": "2024-11-16 11:39:39"
+    },
+    {
+      "uuid": "ee104ed18aab3aef8cc6cd8ada05d680",
+      "title": "SD Card Reader",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1f57709e82ff4366b17f12502e7be432": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C0603",
+          "C1,C2,C3,C5,C6,C8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C4",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0603",
+          "C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "STM32F411CEU6",
+          1,
+          "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411CEU6",
+            "Supplier Part": "C60420",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411CEU6",
+            "puuid": "d8f1e8de5160402fae618de6ccdfda66",
+            "uuid": "8ef8489a07424c7e9b7747724b489515"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0603",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0603",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "60k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1731776400,
+      "createTime": 1731775808,
+      "histories": [],
+      "created_at": "2024-11-16 11:50:08",
+      "updated_at": "2024-11-16 12:00:00"
+    },
+    {
+      "uuid": "55b59ea35d7a7ded2f9b895f9666ae5b",
+      "puuid": "ea6d5e0ddd1ea1bcaeaaf27b1a17aabd",
+      "title": "PCB_GPSCompass",
+      "filename": "PCB_GPSCompass.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 5,
+        "b06dacb9c0e6425c9088f6d83f81b9b3": 1,
+        "d9e584f6887044aca7dbb1f2a1f3f90c": 1,
+        "1f261cf72cb1479ca32177c31156ede3": 1,
+        "398691f1f785460098bbe5ee6590333c": 11,
+        "d8f1e8de5160402fae618de6ccdfda66": 1,
+        "f08e13443143490b8418cd237bc7a691": 1,
+        "4a13c433861640209b7106f419770da9": 1,
+        "b35a76a34ea94c268a3e81c109165758": 1,
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "f5473c5ed40c49bba18f84eff437614e": 1,
+        "0821ed6ea50c44f4909e4be7610e4198": 13,
+        "933d9fe8bedd4aa8bbbeea7cea7bf85a": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 1,
+        "c1e7930568a246c7aca1be33bf9ee5d4": 1,
+        "f0e306eac16f43a8b24dc6b2d3d21e28": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100n",
+          6,
+          "C0603",
+          "C1,C2,C3,C5,C6,C8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          2,
+          "C0603",
+          "C4,C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0603",
+          "C7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "STM32F411CEU6",
+          1,
+          "UFQFPN-48_L7.0-W7.0-P0.50-BL-EP",
+          "U1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411CEU6",
+            "Supplier Part": "C60420",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411CEU6",
+            "puuid": "d8f1e8de5160402fae618de6ccdfda66",
+            "uuid": "8ef8489a07424c7e9b7747724b489515"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "LD1117-3.3",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347229",
+            "Manufacturer": "UMW(友台半导体)",
+            "Manufacturer Part": "LD1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117-3.3",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "7ea92a04a843449ab99cccc0b5447ada"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0603",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0603",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "60k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1731956552,
+      "createTime": 1731782364,
+      "histories": [],
+      "created_at": "2024-11-16 13:39:24",
+      "updated_at": "2024-11-18 14:02:32"
+    },
+    {
+      "uuid": "a5ec68b9d442fdbddd6a1cd8742718d4",
+      "puuid": "ea6d5e0ddd1ea1bcaeaaf27b1a17aabd",
+      "title": "PCB_GPSCompass_2",
+      "filename": "PCB_GPSCompass_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "31a453d5adfc45cea944a6450adf2918": 1,
+        "c1e7930568a246c7aca1be33bf9ee5d4": 1,
+        "0821ed6ea50c44f4909e4be7610e4198": 15,
+        "f8151fdc728a41ebbc304e11d39e5437": 4,
+        "b06dacb9c0e6425c9088f6d83f81b9b3": 1,
+        "d9e584f6887044aca7dbb1f2a1f3f90c": 1,
+        "1f261cf72cb1479ca32177c31156ede3": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 2,
+        "398691f1f785460098bbe5ee6590333c": 13,
+        "f08e13443143490b8418cd237bc7a691": 1,
+        "4a13c433861640209b7106f419770da9": 1,
+        "b35a76a34ea94c268a3e81c109165758": 1,
+        "f5473c5ed40c49bba18f84eff437614e": 1,
+        "933d9fe8bedd4aa8bbbeea7cea7bf85a": 1,
+        "e6b180e1316a4d0690f78b72797504c2": 1,
+        "2afd511af2e94adea785d3da1efd72a1": 1,
+        "f0e306eac16f43a8b24dc6b2d3d21e28": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "22u",
+          1,
+          "C0603",
+          "C16",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0603",
+          "C17",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "4.7u",
+          1,
+          "C0402",
+          "C19",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "100n",
+          7,
+          "C0402",
+          "C20,C21,C22,C23,C24,C26,C27",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C25",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Supplier Part": "C72044",
+            "Supplier": "LCSC",
+            "link": "",
+            "Contributor": "LCEDA_01",
+            "spiceSymbolName": "LED-0603_R",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "R",
+          2,
+          "R0603",
+          "R1,R13",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          3,
+          "R0603",
+          "R10,R11,R12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "2.54-1*4",
+          1,
+          "HDR-TH_4P-P2.54-V-M-1",
+          "U5",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116483",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*4",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "lcsc",
+            "spiceSymbolName": "2.54-1*4",
+            "puuid": "31a453d5adfc45cea944a6450adf2918",
+            "uuid": "ec396171ddf64e66a785c89c626c9214"
+          }
+        ],
+        [
+          "LD1117-3.3",
+          1,
+          "SOT-223_L6.7-W3.5-P2.30-BR",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C347229",
+            "Manufacturer": "UMW(友台半导体)",
+            "Manufacturer Part": "LD1117-3.3",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LD1117-3.3",
+            "puuid": "f5473c5ed40c49bba18f84eff437614e",
+            "uuid": "7ea92a04a843449ab99cccc0b5447ada"
+          }
+        ],
+        [
+          "PZ2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M-3",
+          "U7",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5360898",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "PZ2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "PZ2.54-1*2",
+            "puuid": "c1e7930568a246c7aca1be33bf9ee5d4",
+            "uuid": "95c754501c9b4090a63989bbbfa3c7e5"
+          }
+        ],
+        [
+          "2.54-1*6",
+          1,
+          "HDR-TH_6P-P2.54-V-M",
+          "U9",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5156615",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*6",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*6",
+            "puuid": "933d9fe8bedd4aa8bbbeea7cea7bf85a",
+            "uuid": "1f2a491815d94572b4973c024223c70e"
+          }
+        ],
+        [
+          "2.54-1*2",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "U10",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5116481",
+            "Manufacturer": "ZHOURI(洲日)",
+            "Manufacturer Part": "2.54-1*2",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "2.54-1*2",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "10b33fd833c14cb698d2680e383ac3ad"
+          }
+        ],
+        [
+          "STM32F411RET6",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "U11",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "STM32F411RET6",
+            "Supplier Part": "C94355",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "STM32F411RET6",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "07aad3aef5fe462ea6daff7c9a797ff9"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C9,C11",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "C0402",
+          "C10",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "220n",
+          1,
+          "C0402",
+          "C12",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0603",
+          "R2,R3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "LSM303AGRTR",
+          1,
+          "LGA-12_L2.0-W2.0-P0.50-BL",
+          "U2",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C126671",
+            "Manufacturer": "ST(意法半导体)",
+            "Manufacturer Part": "LSM303AGRTR",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "LSM303AGRTR",
+            "puuid": "f08e13443143490b8418cd237bc7a691",
+            "uuid": "ae7543a64f224e1f822ac949e6e08c74"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0402",
+          "C13,C18",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0402_US",
+            "Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "f29f57ac58b24353a27984c5792bbc76"
+          }
+        ],
+        [
+          "47k",
+          4,
+          "R0603",
+          "R4,R5,R6,R7",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "HT1621BQ",
+          1,
+          "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C910856",
+            "Manufacturer": "HGSEMI(华冠)",
+            "Manufacturer Part": "HT1621BQ",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HT1621BQ",
+            "puuid": "4a13c433861640209b7106f419770da9",
+            "uuid": "5c9b7721d9c74141b7263ab258674244"
+          }
+        ],
+        [
+          "LCD-S401C71TR-luke",
+          1,
+          "LCD-S401C71TR-LUKE",
+          "U8",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "lukearthur2004",
+            "spiceSymbolName": "LCD-S401C71TR-luke",
+            "puuid": "f0e306eac16f43a8b24dc6b2d3d21e28",
+            "uuid": "3aca93d316544fd2b4681edf871d8b44"
+          }
+        ],
+        [
+          "47p",
+          1,
+          "C0603",
+          "C14",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "U.FL-R-SMT-1(80)",
+          1,
+          "RF-SMD_FRF05002-JSS103M",
+          "JP1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "HRS(广濑)",
+            "Manufacturer Part": "U.FL-R-SMT-1(80)",
+            "Supplier Part": "C88374",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "U.FL-R-SMT-1(80)",
+            "puuid": "d9e584f6887044aca7dbb1f2a1f3f90c",
+            "uuid": "4d7c12ca718321ff6a90feefa27cbc35"
+          }
+        ],
+        [
+          "47n",
+          1,
+          "L0603",
+          "L1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "L0603_US",
+            "Manufacturer Part": "",
+            "puuid": "1f261cf72cb1479ca32177c31156ede3",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R8",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "GPS02-UBX",
+          1,
+          "WIRELM-SMD_18P-L16.5-W14.5_P1.80-TL",
+          "U4",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5356636",
+            "Manufacturer": "G-NiceRF(思为无线)",
+            "Manufacturer Part": "GPS02-UBX",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "GPS02-UBX",
+            "puuid": "b35a76a34ea94c268a3e81c109165758",
+            "uuid": "1616783682a245fd8a4cddc33a370b36"
+          }
+        ],
+        [
+          "100n",
+          1,
+          "C0603",
+          "C15",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "TF-015",
+          1,
+          "TF-SMD_TF-015",
+          "CARD1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "SOFNG(硕方)",
+            "Manufacturer Part": "TF-015",
+            "Supplier Part": "C113206",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "TF-015",
+            "puuid": "b06dacb9c0e6425c9088f6d83f81b9b3",
+            "uuid": "1f57709e82ff4366b17f12502e7be432"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R0603",
+          "R9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ]
+      ],
+      "updateTime": 1732501130,
+      "createTime": 1732069589,
+      "histories": [],
+      "created_at": "2024-11-19 21:26:29",
+      "updated_at": "2024-11-24 21:18:50"
+    }
+  ],
+  "sort": [
+    "26679e4d4336f6f1567d0102390fdbb4",
+    "3a0dc03ec1f078ede1aa6cc1ffd8a400",
+    "f5e410ad53898b0bdee05089aa6beb22",
+    "4b3036fa207c7e5f4e9fcfc196e778b0",
+    "ee104ed18aab3aef8cc6cd8ada05d680"
+  ],
+  "title": "GPSCompass",
+  "foldername": "GPSCompass",
+  "schfilename": "GPSCompass.json",
+  "schfilemtime": 1732225703176
+}
